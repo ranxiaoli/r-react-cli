@@ -1,14 +1,19 @@
 {
 	"name": "r-react-cli",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "just test react-cli",
+	"main": "bin/main.js",
+	"keywords": ["react","cli"],
+	"private": false,
+	"bin": {
+		"r-react-cli": "./bin/main.js"
+	  },
 	"scripts": {
 		"start": "node ./scripts/start.js",
 		"build": "node ./scripts/build.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
+	"author": "ranxiaolilove",
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/preset-env": "^7.9.5",
