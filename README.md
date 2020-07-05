@@ -1,6 +1,2 @@
 ### R-REACT-CLI  
-ddd
-
-ddd
-
-ddd
+to init react project cli

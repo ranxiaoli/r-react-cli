@@ -15,9 +15,9 @@ const {
 	pullFailed,
 	queryError,
 	info,
-} = require("./utils/outputFunc");
-const { queryArr } = require("./utils/inquirerArr");
-const { runInstall } = require("./utils/npmInstall");
+} = require("../utils/outputFunc");
+const { queryArr } = require("../utils/inquirerArr");
+const { runInstall } = require("../utils/npmInstall");
 
 const version = "1.2.3";
 program
