@@ -13,7 +13,7 @@ const noPackageJSON = function () {
 	console.log(chalk.red("请重新尝试！"));
 };
 
-const pullFailed = function () {
+const pullFailed = function (err) {
 	console.log(chalk.red("failed! 拉取失败", err));
 	console.log(chalk.red("请重新尝试！"));
 };

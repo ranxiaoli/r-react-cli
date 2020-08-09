@@ -44,7 +44,7 @@ program
 				spinner.start();
 				paramater = { ...paramater, version };
 				download(
-					"https://github.com/ranxiaoli/r-react-tmp.git",
+					"direct:https://github.com/ranxiaoli/r-react-tmp.git",
 					targetPath,
 					{ clone: true },
 					(err) => {
@@ -64,7 +64,7 @@ program
 							console.log(chalk.green("success！ 项目初始化成功") + "\n");
 							runInstall(targetPath, () => projectSuccess(projectName));
 						} else {
-							pullFailed();
+							pullFailed(err);
 							return;
 						}
 					}
